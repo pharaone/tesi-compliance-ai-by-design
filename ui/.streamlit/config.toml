@@ -1,0 +1,14 @@
+[theme]
+primaryColor = "#2563EB"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6FA"
+textColor = "#1A1D23"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# The inotify-based file watcher (watchdog) segfaults inside Docker on
+# macOS, and there is nothing to hot-reload in a container anyway
+fileWatcherType = "none"
